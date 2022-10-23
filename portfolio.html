@@ -30,19 +30,30 @@
             ><span style="color: var(--color-blue)">Web</span>Studio</a
           >
           <ul class="list pages-box">
-            <li class="pages-item"><a class="link" href="./index.html">Cтудія</a></li>
-            <li class="pages-item">
+            <li><a class="link" href="./index.html">Cтудія</a></li>
+            <li>
               <a class="link link-opened-page" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li class="pages-item"><a class="link" href="#contacts">Контакти</a></li>
+            <li><a class="link" href="#contacts">Контакти</a></li>
           </ul>
         </nav>
         <ul class="list pages-box">
-          <li class="pages-item">
-            <a class="link link-contacts" href="mailto:info@example.com">info@devstudio.com</a>
+          <li>
+            <a class="link link-contacts" href="mailto:info@example.com">
+              <svg class="envelope-icon">
+                <use href="./images/icons.svg#icon-envelope-1"></use>
+              </svg>
+              info@devstudio.com</a>
+            </a>
           </li>
-          <li class="pages-item">
-            <a class="link link-contacts" href="tel:+380961111111">+38 096 111 11 11</a>
+          <li>
+            <a class="link link-contacts" href="tel:+380961111111">
+              <a class="link link-contacts" href="tel:+380961111111">
+                <svg class="smartphone-icon">
+                  <use href="./images/icons.svg#icon-smartphone-1"></use>
+                </svg>
+                +38 096 111 11 11
+            </a>
           </li>
         </ul>
       </div>
@@ -128,7 +139,8 @@
     </main>
 
     <footer class="section-dark footer-positioning">
-      <div class="container">
+      <div class="container footer-flex">
+        <div class="contacts">
         <a class="logo-font logo-footer" href="./index.html"
           ><span style="color: var(--color-blue)">Web</span>Studio</a
         >
@@ -147,6 +159,33 @@
             <li><a class="link-transp" href="tel:+380961111111">+38 099 111 11 11</a></li>
           </ul>
         </address>
+        </div>
+        <div class="join-us">
+          <p>Приєднуйтеся</p>
+          <ul class="list join-icons-box">
+            <li class="join-item"><a href="">
+                <svg class="join-icon">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a></li>
+            <li class="join-item"><a href="">
+                <svg class="join-icon">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a></li>
+            <li class="join-item"><a href="">
+                <svg class="join-icon">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a></li>
+            <li class="join-item"><a href="">
+                <svg class="join-icon">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
